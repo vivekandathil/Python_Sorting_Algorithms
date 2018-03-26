@@ -30,7 +30,7 @@ def bubbleSort(data = []):
                 swaps += 1 
                 switched = True
                 
-        #Causes program to only iterate if any initial values are swapped
+        #Causes program to only loop through if any initial values are swapped
         #Optimizes execution time
         if switched == False:
             break
